@@ -29,7 +29,33 @@ public class Main {
          for (int i =1;i<=512 ; i =i * 2) {
              System.out.println(i );
          }
-         System.out.println("Задача7");
+         System.out.println("Задача8");
+         int everyMonth=29000;
+         int total=0;
+         for (int i=0; i<=12; i++) {
+            total= total+ everyMonth;
+             System.out.println("Месяц"+i+"Сумма накоплений равна"+total+"рублей");
+
+         }
+         System.out.println("Задача9");
+         int every=29000;
+         int totaly=0;
+         for (int i=0; i<=12; i++) {
+             totaly= totaly + totaly/100;
+             totaly= totaly+ everyMonth;
+
+             System.out.println("Месяц"+i+ "Сумма накоплений равна" +totaly + "рублей" );
+         }
+         System.out.println("Задача10");
+         int number=1;
+         for (int i =1;i<=10 ; i =i+1) {
+             number= i * 2;
+             System.out.println("2 * " + i + " = " + 2 * i );
+         }
+
+
+
+
 
 
 
